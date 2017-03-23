@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    self.ctx.setLineWidth(20.0)
+    self.ctx.setStrokeColor(UIColor.green.cgColor)
+    self.ctx.setLineCap(.round)
+    
+    self.ctx.move(to: CGPoint(x:rnd(50), y:50))
+    self.ctx.addLine(to: CGPoint(x: rnd(350), y:150))
+    self.ctx.strokePath()</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>ED4D7127-5E79-4D42-89D7-BAEC0664CACF</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>ctx線画</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
