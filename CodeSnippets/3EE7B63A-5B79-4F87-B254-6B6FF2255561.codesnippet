@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>TopLevel</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>@IBDesignable
+class CardioView: UIView {
+  @IBInspectable var cornerRadius: CGFloat = 10.0
+  override func draw(_ rect: CGRect) {
+    self.layer.cornerRadius = cornerRadius
+    self.clipsToBounds = (cornerRadius &gt; 0)</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>3EE7B63A-5B79-4F87-B254-6B6FF2255561</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>IBDesignable角丸</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

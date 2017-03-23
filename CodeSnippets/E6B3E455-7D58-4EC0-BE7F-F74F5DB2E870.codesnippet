@@ -4,17 +4,18 @@
 <dict>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>TopLevel</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>line.move(to: CGPoint(x: 0, y: 165))
-line.lineWidth = step[0].ix
-line.lineCapStyle = .round
-line.lineJoinStyle = .round
-line.addLine(to: CGPoint(x: ix, y: CGFloat(iy)))
-line.stroke()</string>
+	<string>    let line = UIBezierPath()
+    line.move(to: CGPoint(x: 0, y: 165))
+    line.lineWidth = 20.0
+    line.lineCapStyle = .round
+    line.lineJoinStyle = .round
+    line.addLine(to: CGPoint(x: 100, y: 0))
+    line.stroke()</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>6B905727-66C9-44A5-90B2-F6962A364140</string>
+	<string>E6B3E455-7D58-4EC0-BE7F-F74F5DB2E870</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetTitle</key>
